@@ -1,1 +1,4 @@
+#!/bin/sh
+cd $(dirname "$0")/..
+echo "Building with Ant in $(pwd)…"
 ant && ./tests/suite.sh 
